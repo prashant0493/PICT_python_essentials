@@ -1,24 +1,24 @@
 """
-pip install fastpi
-pip install uvicorn
+
+List of commands to install requirements.
+    - pip install fastpi
+    - pip install uvicorn
 
 
-Docs:
+HTTP methods:
 
     GET : getting resource from server
     POST: creating a resource on the server
 
 Modules
 
-- Native
-- third party libraries
+- Native ( modules that get installed along Python installation )
+- third party libraries ( modules that are explicitly installed using package manager `pip` )
 
-spacy 3.4.5
-    - requests 11.x.x
 
-spacy 3.4.5
-requests 9.x.x
-
+Why we should create virtual environment?
+    - To isolate packages along with their specific versions
+    - To manage package dependencies.
 """
 
 from ml import nlp
